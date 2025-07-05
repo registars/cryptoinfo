@@ -1,0 +1,1 @@
+// Participation analytics script

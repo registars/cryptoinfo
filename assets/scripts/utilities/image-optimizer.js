@@ -1,0 +1,1 @@
+// JS to optimize images
