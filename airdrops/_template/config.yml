@@ -1,0 +1,30 @@
+airdrop:
+  name: "Template Airdrop"
+  id: "template-001"
+  status: "draft" # draft/upcoming/active/completed
+  network: "ethereum"
+
+  schedule:
+    start: "2023-01-01T00:00:00Z"
+    end: "2023-12-31T23:59:59Z"
+
+  rewards:
+    currency: "ETH"
+    amount: 100
+    distribution:
+      method: "pro-rata"
+      schedule: "30 days after end"
+
+  requirements:
+    min_balance: 0.01
+    tasks:
+      - social_media
+      - wallet_verification
+
+  contracts:
+    main: "0x0000000000000000000000000000000000000000"
+    token: "0x0000000000000000000000000000000000000000"
+
+  social:
+    twitter: "https://twitter.com/example"
+    discord: "https://discord.gg/example"
