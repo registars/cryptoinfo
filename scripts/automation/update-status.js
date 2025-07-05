@@ -1,1 +1,0 @@
-// Update airdrop statuses script
